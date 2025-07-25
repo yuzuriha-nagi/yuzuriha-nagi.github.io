@@ -1,0 +1,41 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    background: #f5f5f5;
+}
+
+h1 {
+    margin: 20px;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+th, td {
+    border: 1px solid #999;
+    padding: 5px;
+    min-width: 10px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+td:hover {
+    background-color: #e0f7fa;
+}
+#reloadBtn {
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#reloadBtn:hover {
+    background-color: #45a049;
+}
